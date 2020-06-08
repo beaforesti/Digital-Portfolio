@@ -1,4 +1,4 @@
-var col1 = '#E8680F';
+var col1 = '#ef7a31';
 
 function preload() {
 //  myFont = loadFont('assets/SuisseSign-Thin.otf');
