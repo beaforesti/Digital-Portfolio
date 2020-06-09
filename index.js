@@ -75,28 +75,40 @@ function draw() {
   line(0, windowHeight / 10 * 7, windowWidth, windowHeight / 10 * 7);
   pop()
 
-  push()
-  var myText = "Portfolio";
-  //textFont("SuisseSign-Thin");
-  textFont("Nunito");
-  textAlign(CENTER);
-  textSize(60);
-  fill(255);
-  text(myText, windowWidth / 4 , windowHeight / 4);
-  pop()
+  // push()
+  // var myText = "Portfolio";
+  // //textFont("SuisseSign-Thin");
+  // textFont("Nunito");
+  // textAlign(CENTER);
+  // textSize(60);
+  // fill(255);
+  // // text(myText, windowWidth / 4 , windowHeight / 4);
+  // text(myText, windowWidth / 2 , windowHeight / 4);
+  // pop()
+  //
+  // push()
+  // var myText2 = "Beatrice \nForesti";
+  // //textFont("SuisseSign-Thin");
+  // textFont("Nunito");
+  // textAlign(CENTER);
+  // textSize(60);
+  // fill(255);
+  // text(myText2, windowWidth / 4 * 3, windowHeight / 4);
+  // pop()
 
-  push()
-  var myText2 = "Beatrice \nForesti";
-  //textFont("SuisseSign-Thin");
-  textFont("Nunito");
-  textAlign(CENTER);
-  textSize(60);
-  fill(255);
-  text(myText2, windowWidth / 4 * 3, windowHeight / 4);
-  pop()
 
   imageMode(CENTER);
   image(flower, windowWidth / 2, windowHeight / 10 * 3, flower.width / 3, flower.height / 3);
+
+  push()
+  var myText = "Portfolio - Beatrice Foresti";
+  //textFont("SuisseSign-Thin");
+  textFont("Nunito");
+  textAlign(CENTER);
+  textSize(40);
+  fill(255);
+  text(myText, windowWidth / 2 , windowHeight / 10 * 1);
+  pop()
 
   // push()
   //  var myText2 = "Progettazione grafica";
